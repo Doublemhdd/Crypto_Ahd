@@ -1,3 +1,38 @@
+# CryptoSimulation - ESP
+
+Un projet éducatif de simulation de cryptomonnaie.
+
+## Comment exécuter le projet
+
+### Prérequis
+- Node.js (v14 ou supérieur)
+- npm (v6 ou supérieur)
+
+### Installation
+1. Clonez le dépôt
+   ```
+   git clone https://github.com/avocadoL/crypto6u6u.git
+   cd crypto6u6u
+   ```
+
+2. Installez les dépendances
+   ```
+   npm install
+   ```
+
+3. Démarrez l'application
+   ```
+   npm start
+   ```
+
+L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000).
+
+## Fonctionnalités
+- Simulation de portefeuille de cryptomonnaie
+- Marché d'échange de cryptomonnaies
+- Explorateur de blockchain
+- Centre d'apprentissage sur les cryptomonnaies
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

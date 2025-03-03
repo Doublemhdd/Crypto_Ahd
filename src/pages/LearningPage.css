@@ -1,0 +1,293 @@
+/* LearningPage Styles */
+
+.learning-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.learning-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--crypto-dark);
+}
+
+.learning-card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.tabs-header {
+  border-bottom: 1px solid #e2e8f0;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.tabs-navigation {
+  display: flex;
+  min-width: 100%;
+  justify-content: space-between;
+}
+
+.tab-button {
+  padding: 1rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: #4a5568;
+  border: none;
+  background: none;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tab-button:hover {
+  color: #2d3748;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tab-button-active {
+  color: var(--crypto-blue);
+  border-bottom: 3px solid var(--crypto-blue);
+  font-weight: 600;
+}
+
+.tab-content {
+  padding: 1.5rem;
+  max-height: 75vh;
+  overflow-y: auto;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--crypto-dark);
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.subsection-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--crypto-dark);
+}
+
+.text-content {
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .feature-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.feature-card {
+  background-color: #ebf8ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.feature-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--crypto-dark);
+}
+
+.feature-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  color: #4a5568;
+}
+
+.feature-list li {
+  margin-bottom: 0.25rem;
+}
+
+.process-card {
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.process-list {
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+  color: #4a5568;
+}
+
+.process-list li {
+  margin-bottom: 0.5rem;
+}
+
+.components-card {
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.components-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.component-item {
+  margin-bottom: 1rem;
+}
+
+.component-title {
+  font-weight: 600;
+  color: var(--crypto-dark);
+}
+
+.types-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .types-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.type-card {
+  background-color: #ebf8ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.type-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--crypto-dark);
+}
+
+.wallet-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .wallet-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.keys-card {
+  background-color: #f7fafc;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.key-item {
+  margin-bottom: 1rem;
+}
+
+.key-title {
+  font-weight: 600;
+  color: var(--crypto-dark);
+}
+
+.code-example {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  background-color: #edf2f7;
+  border-radius: 0.25rem;
+  font-family: monospace;
+  font-size: 0.875rem;
+  overflow-x: auto;
+}
+
+.wallet-types {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.wallet-type-card {
+  background-color: #ebf8ff;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.wallet-type-title {
+  font-weight: 600;
+  color: var(--crypto-dark);
+}
+
+/* Mining & DeFi content */
+.mining-content, .defi-content {
+  padding: 1rem 0;
+  display: block;
+  width: 100%;
+}
+
+/* Styles spécifiques pour le contenu de Mining & Consensus */
+.mining-content .content-section {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.mining-content .feature-card {
+  background-color: #f0f9ff;
+  border: 1px solid #e2e8f0;
+}
+
+.mining-content .type-card {
+  background-color: #e6fffa;
+  border: 1px solid #e2e8f0;
+}
+
+/* Styles spécifiques pour le contenu de DeFi & Contrats Intelligents */
+.defi-content .content-section {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.defi-content .feature-card {
+  background-color: #f0fff4;
+  border: 1px solid #e2e8f0;
+}
+
+.defi-content .type-card {
+  background-color: #faf5ff;
+  border: 1px solid #e2e8f0;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+  .tabs-navigation {
+    flex-wrap: wrap;
+  }
+  
+  .tab-button {
+    flex: 0 0 auto;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.8rem;
+  }
+} 

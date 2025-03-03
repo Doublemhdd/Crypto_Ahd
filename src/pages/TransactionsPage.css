@@ -1,0 +1,206 @@
+.transactions-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.transactions-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--dark-color);
+}
+
+.transactions-card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.transactions-header {
+  background-color: var(--dark-color);
+  color: white;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.transactions-header-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #d1d5db;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.filter-button:hover {
+  background-color: #4b5563;
+  color: white;
+}
+
+.filter-button-active {
+  background-color: white;
+  color: var(--dark-color);
+}
+
+.no-transactions {
+  padding: 2rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+}
+
+.badge-buy {
+  background-color: #d1fae5;
+  color: var(--success-color);
+}
+
+.badge-sell {
+  background-color: #fee2e2;
+  color: var(--danger-color);
+}
+
+.badge-deposit {
+  background-color: #dbeafe;
+  color: var(--primary-color);
+}
+
+.badge-withdraw {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.badge-default {
+  background-color: #f3f4f6;
+  color: #6b7280;
+}
+
+.transaction-crypto {
+  font-weight: 500;
+}
+
+.transaction-price {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.transaction-type {
+  font-weight: 500;
+}
+
+.amount-negative {
+  color: var(--danger-color);
+  font-weight: 500;
+}
+
+.amount-positive {
+  color: var(--success-color);
+  font-weight: 500;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  background-color: #d1fae5;
+  color: var(--success-color);
+}
+
+.info-section {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.info-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-text {
+  color: #4b5563;
+}
+
+.key-concepts {
+  background-color: #f9fafb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.key-concepts-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--dark-color);
+}
+
+.concepts-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #4b5563;
+}
+
+.concept-name {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .transactions-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .filter-buttons {
+    margin-top: 0.5rem;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+} 

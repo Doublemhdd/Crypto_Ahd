@@ -1,0 +1,117 @@
+/* Navbar Styles */
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  position: relative;
+}
+
+.navbar-logo-link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.navbar-links {
+  display: none;
+}
+
+.navbar-link {
+  display: inline-block;
+  padding: 0.75rem 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-link:hover {
+  color: white;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.navbar-link-active {
+  color: white;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.navbar-mobile-button {
+  display: block;
+}
+
+.navbar-mobile-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.navbar-mobile-menu {
+  display: none;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-mobile-menu.show {
+  display: flex;
+}
+
+.navbar-mobile-link {
+  display: block;
+  padding: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.2s;
+}
+
+.navbar-mobile-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-mobile-button {
+    display: none;
+  }
+  
+  .navbar-mobile-menu {
+    display: none !important;
+  }
+} 
