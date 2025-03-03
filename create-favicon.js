@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Using absolute paths to avoid confusion
-const inputPath = path.join(__dirname, 'public', 'esp.jpg');
+const inputPath = path.join(__dirname, 'public', 'esplogo.jpg');
 const outputPath = path.join(__dirname, 'public', 'favicon.ico');
 
 // Function to convert JPG to ICO
