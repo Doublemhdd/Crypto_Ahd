@@ -5,10 +5,10 @@ import './HomePage.css';
 // Try to import the logo from different possible locations
 let espLogo;
 try {
-  espLogo = require('../assets/esp.jpg');
+  espLogo = require('../assets/mypic.jpg');
 } catch (e) {
   try {
-    espLogo = require('../esp.jpg');
+    espLogo = require('../assets/mypic.jpg');
   } catch (e) {
     espLogo = null;
   }

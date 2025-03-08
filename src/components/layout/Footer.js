@@ -15,12 +15,12 @@ const Footer = () => {
             </p>
           </div>
           <div className="footer-social">
-            <a href="https://www.esp.mr" target="_blank" rel="noopener noreferrer" className="footer-social-link">
-              <span className="sr-only">ESP.mr</span>
+            <a href="https://www.binance.com" target="_blank" rel="noopener noreferrer" className="footer-social-link">
+              <span className="sr-only">Binance</span>
               <svg className="footer-social-icon" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span className="footer-link-text">ESP.mr</span>
+              <span className="footer-link-text">Binance</span>
             </a>
           </div>
         </div>
